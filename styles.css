@@ -1,4 +1,14 @@
-.portfolioEntry
-{
+.portfolioEntry {
     text-align: center;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #b4b4b4;
+    width: fit-content;
+}
+
+h3, p{
+    margin: 0px;
+    padding: 0px;
 }
