@@ -6,14 +6,44 @@
     padding: 10px;
     background-color: #b4b4b4;
     width: fit-content;
+    border-radius: 5px;
 }
 
-h3, p{
-    margin: 0px;
-    padding: 0px;
+.topBannerText
+{
+    width: 50%;
+    margin: auto;
+    padding: 15px;
 }
+
+.mainCentre{
+    width: 50%;
+    margin: auto; 
+    text-align: center;
+    background-color: #aeec9b;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.topBanner{
+    background-color: #9393ff;
+}
+
+h1, h2, h3, h4, h5, h6, p{
+    /* margin: 0px;
+    padding: 0px; */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
 
 ul{
+    margin-top: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.ulCentre{
+    margin-top: 0px;
     padding-left: 0px;
     text-align: center;
     list-style-position: inside;
