@@ -1,3 +1,20 @@
+/* *{
+    margin: 0px;
+    padding: 0px;
+} */
+
+.portfolioContainer{
+    display: flex
+}
+
+.portfolioText{
+    width: 50%;
+}
+
+.portfolioImage{
+    width: 50%;
+}
+
 .portfolioEntry {
     text-align: center;
     margin: auto;
