@@ -18,17 +18,33 @@
     margin: 10px;
 }
 
+.portfolioEntry :first-child{
+    margin-top: 0px;
+}
+
+.portfolioEntry :last-child{
+    margin-bottom: 0px;
+}
+
 .portfolioEntry iframe{
     width: 100%;
+    border-radius: 5px;
 }
+
 
 .portfolioEntry img{
     max-width: 100%;
 }
 
+.entryBottomList{
+    list-style: none;
+    list-style-position: inside;
+    padding-left: 0px;
+}
+
 .topBannerText
 {
-    width: 50%;
+    width: 60%;
     margin: auto;
     padding: 15px;
     color: #ffffff
@@ -64,7 +80,7 @@ body{
     background-color: #26264E;
 }
 
-h1, h2, h3, h4, h5, h6, p, strong{
+h1, h2, h3, h4, h5, h6, p, strong, a{
     /* margin: 0px;
     padding: 0px; */
     font-family: Verdana, Geneva, Tahoma, sans-serif;
